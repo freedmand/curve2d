@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Achtung</title>
+  <style>
+    .score {
+      display: inline-block;
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas-overlay" style="position: absolute; display: inline-block;"></canvas>
+  <canvas id="canvas" style="display: inline-block;"></canvas>
+  <div class="score">
+    <div style="text-align: right;">Fred: <span id="player1-score">0</span></div>
+    <div style="text-align: right;">Greenlee: <span id="player2-score">0</span></div>
+  </div>
+  <sub class="controls">Controls: left and right arrow (Fred), q and w (Greenlee)</sub>
+  <script src="game.js"></script>
+</body>
+
+
+</html>
